@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://bgltk50n5hrgq"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_vk57k"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_8ffim"]
+
+[node name="Level1" unique_id=199053183 instance=ExtResource("1_vk57k")]
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_8ffim")]
+layout_mode = 0
+offset_left = 218.0
+offset_top = 306.0
+offset_right = 346.0
+offset_bottom = 434.0
+person_name = "Sam"
+said_line = "I did not take the cookie."
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=1545681268 instance=ExtResource("2_8ffim")]
+layout_mode = 0
+offset_left = 494.0
+offset_top = 274.0
+offset_right = 622.0
+offset_bottom = 402.0
+said_line = "The kid to my left is telling the truth."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1450551766 instance=ExtResource("2_8ffim")]
+layout_mode = 0
+offset_left = 788.0
+offset_top = 304.0
+offset_right = 916.0
+offset_bottom = 432.0
+person_name = "Jimmy"
+lier = true
+said_line = "The kid to my left is lying."

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dp5ewl5qhk7cj"]
+
+[ext_resource type="Script" uid="uid://bskpb2ajdpklp" path="res://Scripts/base_level.gd" id="1_5gpc1"]
+
+[node name="BaseLevel" type="Control" unique_id=199053183 node_paths=PackedStringArray("finish_button", "people_node")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5gpc1")
+finish_button = NodePath("Button")
+people_node = NodePath("People")
+
+[node name="People" type="Control" parent="." unique_id=1018827418]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button" type="Button" parent="." unique_id=1504884297]
+layout_mode = 0
+offset_left = 395.0
+offset_top = 548.0
+offset_right = 763.0
+offset_bottom = 624.0
+theme_override_font_sizes/font_size = 32
+text = "Finish"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
