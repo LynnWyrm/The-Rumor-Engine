@@ -1,0 +1,5 @@
+res://Scripts/base_level.gd
+res://Scenes/base_level.tscn
+res://Scripts/level_manager.gd
+res://Scenes/level_1.tscn
+res://Scripts/person.gd

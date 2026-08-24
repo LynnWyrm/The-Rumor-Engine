@@ -1,0 +1,12 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1787588583
+::res://Scenes/::1787588554
+base_level.tscn::PackedScene::8274308818546291085::1787588554::0::1::::<><><>0<>0<><>::uid://bskpb2ajdpklp::::res://Scripts/base_level.gd
+level_1.tscn::PackedScene::2831434996569224984::1787588444::0::1::::<><><>0<>0<><>::uid://dp5ewl5qhk7cj::::res://Scenes/base_level.tscn<>uid://byyp70lvn8oa4::::res://Scenes/person.tscn
+person.tscn::PackedScene::4121467228449198221::1787588471::0::1::::<><><>0<>0<><>::uid://bebjhkjmsew7v::::res://Scripts/person.gd
+::res://Scripts/::1787588554
+base_level.gd::GDScript::3671377605947666805::1787588554::0::1::::BaseLevel<>Control<><>0<>0<><>::
+level_manager.gd::GDScript::4710083738369340774::1787587986::0::1::::<>Node<><>0<>0<><>::
+person.gd::GDScript::2669799929197726893::1787588444::0::1::::Person<>TextureButton<><>0<>0<><>::
+::res://Sprites/::1787588474
+icon.svg::CompressedTexture2D::4503165286829722469::1787581405::1787588474::1::::<><><>0<>0<>4b8017369f2fa4a543770252ecc0b92d<>res://.godot/imported/icon.svg-b67cfb692a937e61d2bda8561d9e8db7.ctex::
