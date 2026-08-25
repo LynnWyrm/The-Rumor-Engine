@@ -31,3 +31,6 @@ offset_bottom = 432.0
 person_name = "Jimmy"
 lier = true
 said_line = "The kid to my left is lying."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 502.0

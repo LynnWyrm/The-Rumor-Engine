@@ -1,5 +1,9 @@
-res://Scripts/base_level.gd
-res://Scenes/base_level.tscn
+res://Scenes/level_2.tscn
 res://Scripts/level_manager.gd
 res://Scenes/level_1.tscn
-res://Scripts/person.gd
+res://Scripts/base_level.gd
+res://Scenes/level_3.tscn
+res://Scenes/person.tscn
+res://Scenes/level_4.tscn
+res://notes_manager.gd
+res://Scenes/base_level.tscn

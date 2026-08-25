@@ -16,7 +16,7 @@ func _ready() -> void:
 	choosen_one = false
 	in_text = false
 	text_box.visible_ratio = 0
-	text_box.text = said_line
+	text_box.text = person_name + "\n" + said_line
 
 func _process(_delta: float) -> void:
 	if choosen_one:

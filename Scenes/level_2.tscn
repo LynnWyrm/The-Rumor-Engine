@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://ddlmpjvm1qqjm"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_v3rpw"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_smnlx"]
+
+[node name="Level2" unique_id=199053183 instance=ExtResource("1_v3rpw")]
+level_goal = Array[bool]([true, false, true])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_smnlx")]
+layout_mode = 0
+offset_left = 253.0
+offset_top = 309.0
+offset_right = 381.0
+offset_bottom = 437.0
+person_name = "Dave"
+said_line = "The kid to my right is lying"
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=1910458134 instance=ExtResource("2_smnlx")]
+layout_mode = 0
+offset_left = 524.0
+offset_top = 108.0
+offset_right = 652.0
+offset_bottom = 236.0
+lier = true
+said_line = "Billy is lying"
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=184128986 instance=ExtResource("2_smnlx")]
+layout_mode = 0
+offset_left = 786.0
+offset_top = 303.0
+offset_right = 914.0
+offset_bottom = 431.0
+person_name = "Billy"
+said_line = "I did not do it."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

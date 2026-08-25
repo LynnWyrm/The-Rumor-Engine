@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://ed3pmag54j3m"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_5eaas"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_kdkq3"]
+
+[node name="Level4" unique_id=199053183 instance=ExtResource("1_5eaas")]
+level_goal = Array[bool]([true, true, true, false])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_kdkq3")]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 343.0
+offset_right = 271.0
+offset_bottom = 471.0
+person_name = "Cindy"
+said_line = "If Han is telling the truth, then Ricky is lying."
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=571982781 instance=ExtResource("2_kdkq3")]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 263.0
+offset_right = 512.0
+offset_bottom = 391.0
+person_name = "Han"
+said_line = "JJ is telling the truth, so he didn't touch the computer"
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1725939988 instance=ExtResource("2_kdkq3")]
+layout_mode = 0
+offset_left = 658.0
+offset_top = 259.0
+offset_right = 786.0
+offset_bottom = 387.0
+person_name = "JJ"
+said_line = "Han and I are telling the truth"
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=1546745713 instance=ExtResource("2_kdkq3")]
+layout_mode = 0
+offset_left = 914.0
+offset_top = 343.0
+offset_right = 1042.0
+offset_bottom = 471.0
+person_name = "Ricky"
+said_line = "Han is lying, and he  deleted the file."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

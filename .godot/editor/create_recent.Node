@@ -1,7 +1,11 @@
-Control
+Label
 Button
+HBoxContainer
+VBoxContainer
+AnimationPlayer
+RichTextLabel
+Control
 Sprite2D
 StaticBody2D
 Node2D
-RichTextLabel
 TextureButton

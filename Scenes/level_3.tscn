@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://bsghx1dpixgrk"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_g5cw1"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_76ybr"]
+
+[node name="Level3" unique_id=199053183 instance=ExtResource("1_g5cw1")]
+amount_of_liers = 2
+level_goal = Array[bool]([false, true, true, false])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_76ybr")]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 160.0
+offset_right = 387.0
+offset_bottom = 288.0
+said_line = "Both people in this column are telling the truth"
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=412281805 instance=ExtResource("2_76ybr")]
+layout_mode = 0
+offset_left = 764.0
+offset_top = 162.0
+offset_right = 892.0
+offset_bottom = 290.0
+said_line = "The person to my left is lying."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1185653800 instance=ExtResource("2_76ybr")]
+layout_mode = 0
+offset_left = 257.0
+offset_top = 407.0
+offset_right = 385.0
+offset_bottom = 535.0
+said_line = "I didn't steal the candy bar"
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=18098904 instance=ExtResource("2_76ybr")]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 407.0
+offset_right = 896.0
+offset_bottom = 535.0
+said_line = "The person behind me is lying"
