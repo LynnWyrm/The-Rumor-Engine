@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://4wdgagiilbn0"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_fdw5x"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_2yhr7"]
+
+[node name="Level9" unique_id=199053183 instance=ExtResource("1_fdw5x")]
+amount_of_liers = 2
+level_goal = Array[bool]([true, false, true, true, false])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_2yhr7")]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 160.0
+offset_right = 392.0
+offset_bottom = 288.0
+person_name = "Jason"
+said_line = "At least one person in this column are telling the truth"
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=644611627 instance=ExtResource("2_2yhr7")]
+layout_mode = 0
+offset_left = 268.0
+offset_top = 323.0
+offset_right = 396.0
+offset_bottom = 451.0
+person_name = "Rebecca"
+lier = true
+said_line = "I'm friends with Eric."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=524395210 instance=ExtResource("2_2yhr7")]
+layout_mode = 0
+offset_left = 601.0
+offset_top = 320.0
+offset_right = 729.0
+offset_bottom = 448.0
+person_name = "Eric"
+said_line = "At least one person in this row is lying."
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=334376398 instance=ExtResource("2_2yhr7")]
+layout_mode = 0
+offset_left = 806.0
+offset_top = 322.0
+offset_right = 934.0
+offset_bottom = 450.0
+person_name = "Emma"
+said_line = "Rebecca told me the other person in her column is lying."
+
+[node name="Person5" parent="People" parent_id_path=PackedInt32Array(1018827418) index="4" unique_id=867208649 instance=ExtResource("2_2yhr7")]
+layout_mode = 0
+offset_left = 603.0
+offset_top = 160.0
+offset_right = 731.0
+offset_bottom = 288.0
+person_name = "Larry"
+lier = true
+said_line = "Jason and Emma are lying."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

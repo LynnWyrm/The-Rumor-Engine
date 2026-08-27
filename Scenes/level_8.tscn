@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dcft6la4g78d5"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_rsuea"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_xg18f"]
+
+[node name="Level8" unique_id=199053183 instance=ExtResource("1_rsuea")]
+amount_of_liers = 2
+level_goal = Array[bool]([true, false, false, true])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_xg18f")]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 332.0
+offset_right = 287.0
+offset_bottom = 460.0
+person_name = "Christian"
+said_line = "I'm friends with Janet."
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=1775445828 instance=ExtResource("2_xg18f")]
+layout_mode = 0
+offset_left = 376.0
+offset_top = 202.0
+offset_right = 504.0
+offset_bottom = 330.0
+person_name = "Jorden"
+lier = true
+said_line = "Dylan and Janet are lying."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1131451121 instance=ExtResource("2_xg18f")]
+layout_mode = 0
+offset_left = 605.0
+offset_top = 343.0
+offset_right = 733.0
+offset_bottom = 471.0
+person_name = "Dylan"
+lier = true
+said_line = "Jorden is telling the truth"
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=1094378923 instance=ExtResource("2_xg18f")]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 218.0
+offset_right = 968.0
+offset_bottom = 346.0
+person_name = "Janet"
+said_line = "Jorden is lying."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

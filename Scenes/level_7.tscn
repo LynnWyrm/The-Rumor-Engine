@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://cr36eo2x40afr"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_i87cx"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_i3ob1"]
+
+[node name="Level7" unique_id=199053183 instance=ExtResource("1_i87cx")]
+amount_of_liers = 2
+level_goal = Array[bool]([true, false, true, true, false])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_i3ob1")]
+layout_mode = 0
+offset_left = 177.0
+offset_top = 333.0
+offset_right = 305.0
+offset_bottom = 461.0
+person_name = "Scott"
+said_line = "Maria told me Kelly and Rachel are telling the truth"
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=1894360318 instance=ExtResource("2_i3ob1")]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 172.0
+offset_right = 476.0
+offset_bottom = 300.0
+person_name = "Kelly"
+lier = true
+said_line = "Nathen is lying"
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1351091872 instance=ExtResource("2_i3ob1")]
+layout_mode = 0
+offset_left = 517.0
+offset_top = 337.0
+offset_right = 645.0
+offset_bottom = 465.0
+person_name = "Rachel"
+said_line = "Nathen told me Scott is not lying"
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=1218841940 instance=ExtResource("2_i3ob1")]
+layout_mode = 0
+offset_left = 671.0
+offset_top = 169.0
+offset_right = 799.0
+offset_bottom = 297.0
+person_name = "Nathen"
+said_line = "If I am telling the truth, then Rachel is too."
+
+[node name="Person5" parent="People" parent_id_path=PackedInt32Array(1018827418) index="4" unique_id=1362451039 instance=ExtResource("2_i3ob1")]
+layout_mode = 0
+offset_left = 834.0
+offset_top = 336.0
+offset_right = 962.0
+offset_bottom = 464.0
+person_name = "Maria"
+lier = true
+said_line = "If Kelly and Nathen are telling the truth, I am too."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

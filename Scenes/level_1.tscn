@@ -20,6 +20,7 @@ offset_left = 494.0
 offset_top = 274.0
 offset_right = 622.0
 offset_bottom = 402.0
+person_name = "Ryan"
 said_line = "The kid to my left is telling the truth."
 
 [node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1450551766 instance=ExtResource("2_8ffim")]
@@ -33,4 +34,4 @@ lier = true
 said_line = "The kid to my left is lying."
 
 [node name="Note" parent="." index="3" unique_id=305698195]
-offset_right = 502.0
+offset_right = 503.0

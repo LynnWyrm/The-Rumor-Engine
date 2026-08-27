@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://c7ts6nfyqnx5p"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_wb8gp"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_hvaeu"]
+
+[node name="Level5" unique_id=199053183 instance=ExtResource("1_wb8gp")]
+amount_of_liers = 2
+level_goal = Array[bool]([true, false, false, true])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_hvaeu")]
+layout_mode = 0
+offset_left = 111.0
+offset_top = 304.0
+offset_right = 239.0
+offset_bottom = 432.0
+person_name = "James"
+said_line = "Oliver is lying."
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=2055334582 instance=ExtResource("2_hvaeu")]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 305.0
+offset_right = 415.0
+offset_bottom = 433.0
+person_name = "Carl"
+lier = true
+said_line = "If I am telling the truth, then Daniel is too."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=285522890 instance=ExtResource("2_hvaeu")]
+layout_mode = 0
+offset_left = 463.0
+offset_top = 306.0
+offset_right = 591.0
+offset_bottom = 434.0
+person_name = "Oliver"
+lier = true
+said_line = "If I'm telling the truth, then James is too."
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=1155071028 instance=ExtResource("2_hvaeu")]
+layout_mode = 0
+offset_left = 831.0
+offset_top = 305.0
+offset_right = 959.0
+offset_bottom = 433.0
+person_name = "Daniel"
+said_line = "The person in the middle of the group is lying."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

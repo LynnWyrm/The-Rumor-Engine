@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://1dn4p2s28df2"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_jhjuy"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_yeb0u"]
+
+[node name="Level10" unique_id=199053183 instance=ExtResource("1_jhjuy")]
+amount_of_liers = 2
+level_goal = Array[bool]([true, true, true, false, false])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_yeb0u")]
+layout_mode = 0
+offset_left = 277.0
+offset_top = 134.0
+offset_right = 405.0
+offset_bottom = 262.0
+person_name = "Logan"
+said_line = "Harold wasn't there."
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=1566443853 instance=ExtResource("2_yeb0u")]
+layout_mode = 0
+offset_left = 746.0
+offset_top = 134.0
+offset_right = 874.0
+offset_bottom = 262.0
+person_name = "Harold"
+said_line = "I was not alone."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=869393050 instance=ExtResource("2_yeb0u")]
+layout_mode = 0
+offset_left = 274.0
+offset_top = 406.0
+offset_right = 402.0
+offset_bottom = 534.0
+person_name = "Albert"
+lier = true
+said_line = "I was with Harold."
+
+[node name="Person4" parent="People" parent_id_path=PackedInt32Array(1018827418) index="3" unique_id=1132675443 instance=ExtResource("2_yeb0u")]
+layout_mode = 0
+offset_left = 747.0
+offset_top = 408.0
+offset_right = 875.0
+offset_bottom = 536.0
+person_name = "Alexis"
+said_line = "I was there with Harold"
+
+[node name="Person5" parent="People" parent_id_path=PackedInt32Array(1018827418) index="4" unique_id=2023116894 instance=ExtResource("2_yeb0u")]
+layout_mode = 0
+offset_left = 525.0
+offset_top = 271.0
+offset_right = 653.0
+offset_bottom = 399.0
+person_name = "Sara"
+lier = true
+said_line = "Albert and Alexis were with Harold. with "
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

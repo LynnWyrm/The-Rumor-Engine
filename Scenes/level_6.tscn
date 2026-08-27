@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://dkqdiwn6e3c81"]
+
+[ext_resource type="PackedScene" uid="uid://dp5ewl5qhk7cj" path="res://Scenes/base_level.tscn" id="1_fj5rg"]
+[ext_resource type="PackedScene" uid="uid://byyp70lvn8oa4" path="res://Scenes/person.tscn" id="2_d0oas"]
+
+[node name="Level6" unique_id=199053183 instance=ExtResource("1_fj5rg")]
+level_goal = Array[bool]([true, false, true])
+
+[node name="Person" parent="People" parent_id_path=PackedInt32Array(1018827418) index="0" unique_id=1157072865 instance=ExtResource("2_d0oas")]
+layout_mode = 0
+offset_left = 255.0
+offset_top = 269.0
+offset_right = 383.0
+offset_bottom = 397.0
+person_name = "Susan"
+said_line = "Paul told me he isn't lying."
+
+[node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=528687374 instance=ExtResource("2_d0oas")]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 214.0
+offset_right = 632.0
+offset_bottom = 342.0
+person_name = "Paul"
+lier = true
+said_line = "Kevin told me Susan is telling the truth."
+
+[node name="Person3" parent="People" parent_id_path=PackedInt32Array(1018827418) index="2" unique_id=1653385334 instance=ExtResource("2_d0oas")]
+layout_mode = 0
+offset_left = 768.0
+offset_top = 278.0
+offset_right = 896.0
+offset_bottom = 406.0
+person_name = "Kevin"
+said_line = "Paul is lying."
+
+[node name="Note" parent="." index="3" unique_id=305698195]
+offset_right = 501.0

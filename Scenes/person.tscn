@@ -13,6 +13,7 @@ script = ExtResource("1_10xcd")
 text_box = NodePath("TextBox")
 
 [node name="TextBox" type="RichTextLabel" parent="." unique_id=1413439797]
+z_index = 999
 layout_mode = 0
 offset_left = -119.0
 offset_top = -160.0

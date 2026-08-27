@@ -17,10 +17,10 @@ said_line = "The kid to my right is lying"
 
 [node name="Person2" parent="People" parent_id_path=PackedInt32Array(1018827418) index="1" unique_id=1910458134 instance=ExtResource("2_smnlx")]
 layout_mode = 0
-offset_left = 524.0
-offset_top = 108.0
-offset_right = 652.0
-offset_bottom = 236.0
+offset_left = 521.0
+offset_top = 155.0
+offset_right = 649.0
+offset_bottom = 283.0
 lier = true
 said_line = "Billy is lying"
 
